@@ -1,1 +1,5 @@
-exports_files(["kubernetes"])
+filegroup(
+    name = "kubernetes",
+    srcs = glob(["kubernetes/**"]),
+    visibility = ["//visibility:public"],
+)
