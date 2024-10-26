@@ -8,7 +8,6 @@
 This is the official Kubernetes client library for the C programming language.
 
 ## Building the library
-## Building the library
 ```bash
 # Clone the repo
 git clone https://github.com/kubernetes-client/c
