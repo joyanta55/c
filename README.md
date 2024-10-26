@@ -9,10 +9,6 @@ This is the official Kubernetes client library for the C programming language.
 
 ## Building the library
 ```bash
-# Clone the repo
-git clone https://github.com/kubernetes-client/c
-CLIENT_REPO_ROOT=${PWD}/c
-
 # Install pre-requisites
 sudo apt-get install libssl-dev libcurl4-openssl-dev libwebsockets-dev uncrustify
 
